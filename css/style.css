@@ -110,7 +110,6 @@ color:#fff ;
 font-size: 18px;
 font-family: 'Inter', sans-serif;
 font-weight: 400;
-line-height: 30px;
 
 }
 .welcome button{
@@ -133,6 +132,43 @@ transition: .3s;
 
 }
 /* welcome css end */
+/* place css start */
+    .place{
+        padding-top: 100px;
+        padding-bottom: 110px;
+        background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0) 100%);
+        text-align: center;
+        margin-top: 120px;
+        border-radius: 16px;
+
+    }
+    .place p{
+        color: #070211;
+        font-size: 32px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
+        margin-bottom: 40px;
+    }
+    .place span{
+       color: #FF0000; 
+    }
+    .place button{
+        padding: 17px;
+        background: #FF0000;
+        color: white;
+        font-size: 20px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        border: none;
+        border-radius: 8px;
+        transition: all linear .3s;
+    }
+    .place button:hover{
+        background: rgba(7, 2, 17, 1);
+    }
+
+/* place css end */
 /* portfolio css start */
 .portfolio{
     padding-top:120px ;
@@ -157,14 +193,12 @@ font-size: 48px;
 font-family: 'Merriweather', serif;
 font-weight: 900;
 text-transform: uppercase;
-
 }
 .portfolio-text p{
 color: rgba(7, 2, 17, 0.60);
 font-size: 20px;
 font-family: 'Inter', sans-serif;
 font-weight: 400;
-line-height: 32px;
 width: 895px;
 }
 .portfolio-img {
@@ -198,7 +232,6 @@ transition: all linear .5s;
     align-items: center;
     justify-content: space-evenly;
     gap: 30px;
-
 }
 .subscribe img{
     height: 150px;
@@ -216,9 +249,7 @@ text-transform: capitalize;
     font-size: 20px;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    line-height: 32px;
     width: 896px;
-
 }
 .subscribe .input input{
    padding: 20px 100px;
@@ -244,3 +275,37 @@ text-transform: capitalize;
     background: rgba(7, 2, 17, 1);
 }
 /* subscribe css end */
+/* footer css start */
+#footer-sec{
+    background: rgba(7, 2, 17, 1);
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.footer-head{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.footer p{
+color: white;
+font-size: 24px;
+font-family: 'Inter', sans-serif;
+font-weight: 500;
+}
+.footer-head-two img{
+    margin-right: 16px;
+    /* margin-top: 20px; */
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+.footer-foot{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+/* footer css end */
